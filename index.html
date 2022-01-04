@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <!-- CSS only -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+
+    <!-- Sign Up forom start -->
+    
+    <div class="first_form">
+      <div class="container my-5">
+        <div class="row">
+          <div class="col">
+            <div class="crd first_card">
+              <h1>Complete forom validation</h1>
+              <div class="crd-body">
+                <div class="msg"></div>
+                <form id="singup_form" action="">
+                  <div class="form-gorup">
+                    <input id="name" class="form-control" type="text" placeholder="Name" />
+                  </div>
+                  <div class="form-gorup mt-2">
+                    <input id="email" class="form-control" type="text" placeholder="Email" />
+                  </div>
+                  <div class="form-gorup mt-2">
+                    <input id="uname" class="form-control" type="text" placeholder="Username" />
+                  </div>
+                  <div class="form-gorup mt-2">
+                    <input id="submit" class="btn btn-primary" type="submit" placeholder="SignUp" />
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Sign Up forom end -->
+
+    <!-- Age calculator start -->
+
+    <div class="wrapper">
+      <div class="age_calculation">
+        <div class="container my-5">
+          <div class="row">
+            <div class="col">
+              <div class="crd">
+                <h2>Age Calculation</h2>
+                <div class="crd_body">
+                  <form id="singup_form" action="">
+                    <div class="form_group">
+                      <input id="form_name" class="form-control" type="text" placeholder="Name" />
+                    </div>
+                    <div class="form_group mt-3">
+                      <input id="form_year" class="form-control" type="text" placeholder="Year" />
+                    </div>
+                    <div class="form_group mt-3">
+                      <input id="agecal2" class="btn btn-primary" type="submit" placeholder="Submit" />
+                    </div>
+                    <p id="result2"></p>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Age Calculator end -->
+
+    <!-- Curency form start -->
+
+    <div class="currency_form">
+      <div class="container my-5">
+        <div class="row">
+          <div class="col">
+            <div class="card main_card">
+              <h1 class="crd-header">Currency Converter for BDT</h1>
+              <div class="crd-body">
+                <div class="msg"></div>
+                <form id="singup_form" action="">
+                  <div class="form-gorup">
+                    <input id="name2" class="form-control" type="number" placeholder="Amount" />
+                  </div>
+                  <div class="form-gorup mt-2">
+                    <select name="" id="currency">
+                      <option value="">-select-</option>
+                      <option value="116">Pound</option>
+                      <option value="60">CAD</option>
+                      <option value="86">USD</option>
+                      <option value="98">EURO</option>
+                    </select>
+                  </div>
+
+                  <div class="form-gorup mt-2">
+                    <input id="submit2" class="btn btn-primary" type="submit" placeholder="SignUp" value="find result" />
+                  </div>
+                  <p id="result"></p>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Curency form end -->
+
+    <!-- Marriage Approval start -->
+
+    <div id="third">
+        <div class="mainSection">
+            <h2>Marriage Approval</h2>
+            <div>
+                <input id="gender" type="text" class="form-control" placeholder="Enter Your Gender">
+                <input id="yearOfBirth" type="number" class="form-control" placeholder="Year Of Birth">
+                <div id="border"></div>
+                <input id="check" type="submit" value="CHECK" class="btn btn-danger">
+            </div>
+            <p id="approval"></p>
+        </div>
+    </div>
+
+    <!-- Marriage Approval end -->
+
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+
+    <!-- Curency form end -->
+
+    <script src="./functions.js"></script>
+    <script src="./app.js"></script>
+
+    <!-- JavaScript Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

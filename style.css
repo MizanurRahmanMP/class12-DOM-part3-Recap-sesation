@@ -1,0 +1,160 @@
+
+.first_form{
+    background-color: black;
+    padding: 20px;
+}
+
+.first_card{
+    width: 550px;
+    margin: 0 auto;
+    display: block;
+    background-color: #10ad44;
+    padding: 20px;
+    border: 2px solid #ddd;
+}
+
+
+/* Age calculator area css start */
+.wrapper{
+    background-color: gray;
+    padding: 20px;
+}
+.age_calculation{
+    width: 550px;
+    margin: 0 auto;
+    display: block;
+    background-color: #43855a;
+    padding: 20px;
+    border: 2px solid #ddd;
+}
+
+.age_body{
+    background-color: rgb(80, 16, 64);
+    padding: 20px;
+}
+
+/* Age calculator area css end */
+
+/* currency area css start */
+.currency_form{
+    background-color: brown;
+    padding: 20px;
+}
+
+.crd-header {
+    background-color: burlywood;
+    color: #089f28;
+    padding: 10px;
+    font-size: 38px;
+    border-radius: 5px;
+}
+div .card.main_card {
+    width: 550px;
+    margin: 0 auto;
+    display: block;
+    background-color: #023535;
+    padding: 20px;
+    border: 2px solid #000;
+}
+#name2{
+    background-color: rgb(14, 179, 255);
+    color: #fff;
+}
+/* currency area css end */
+
+
+/* marage approbal */
+
+/* ==============================================
+age calculator design start
+============================================== */
+
+
+#first{
+    background-color: black;
+    padding: 80px 0px;
+}
+
+
+
+div.mainSection{
+    width: 400px;
+    margin: auto;
+    background-color: rgba(255, 255, 255, 0.144);
+    padding: 60px 40px;
+    text-align: center;
+}
+
+div.mainSection h2{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+
+div.mainSection input{
+    margin-bottom: 35px;
+}
+
+#border{
+    border: 1px solid rgba(255, 255, 255, 0.466);
+}
+
+div.mainSection input:last-child{
+    margin-bottom: 0;
+    margin-top: 35px;
+    font-weight: 900;
+    padding: 6px 60px;
+    width: 100%;
+}
+
+p{
+    color: white;
+    margin-top: 25px;
+    transition: all 0.3s;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+
+
+/* ==============================================
+age calculator design end
+============================================== */
+
+
+/* ==============================================
+money converter form design start
+============================================== */
+
+
+
+div#second{
+    background-color: rgb(0, 65, 126);
+    padding: 80px 0px;
+}
+
+
+/* ==============================================
+money converter form design end
+============================================== */
+
+
+/* ==============================================
+marriage approval design start
+============================================== */
+
+
+div#third{
+    background-color: rgb(122, 0, 126);
+    padding: 80px 0px;
+}
+
+
+
+
+/* ==============================================
+marriage approval design end
+============================================== */
+
+
